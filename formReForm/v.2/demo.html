@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>reForm Demo</title>
+		<!-- remove these to see the form w/out javascript and CSS -->
+        <link href="base.css" rel="stylesheet"/>
+        <link href="reForm.css" rel="stylesheet"/>
+        <script src="reForm.js"></script>
+    </head>
+    <body>
+    	<h1>reForm Javascript Demo Page</h1>
+		<h2>A Usable, Accessible Web Form for Any Layout</h2>
+		
+		<hr>
+		<h3>Basic Form Examples</h3>
+        <div class="fieldForm" id="fieldForm">
+        	<label for="givenName">First Name</label>
+			<input name="givenName" id="givenName" value="Joe" type="text"/><br/>
+			
+			<label for="sirName">Last Name</label>
+			<input name="sirName" id="sirName" value="Lippeatt" type="text"/><br/>
+            
+		    <label for="phone">Phone</label>
+			<input id="phone" name="phone" value="905 555 1212" type="text"/><br/>
+            
+			<label for="address" rel="100pct">Address</label>
+			<input id="address" name="address" value="123 Main Cr" type="text"/><br/>
+
+			<label for="textarea">Text Area</label>
+			<textarea id="textarea" name="textarea" style="height:100px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut leo. Aliquam venenatis vulputate lorem. Curabitur pretium, metus id tempor scelerisque, urna leo rutrum enim, et lacinia turpis sem id mi. Sed euismod metus in ipsum. In vel orci eget dui malesuada rhoncus. Sed dignissim. Duis eu ipsum eu augue sodales ornare. Quisque tempor dui non libero pellentesque tincidunt. Curabitur volutpat lobortis tortor. Fusce nec eros. Quisque nisi magna, fringilla et, hendrerit vel, convallis in, sapien. Nulla massa. Donec in est. Pellentesque tempor magna ornare enim. Donec sit amet nulla eu leo ultrices pulvinar. Vestibulum sed libero. Aliquam erat volutpat. Integer vestibulum erat eget lorem. Maecenas nec nisi quis nulla laoreet molestie.
+			</textarea> <br />
+
+            <label for="age">Age</label>
+			<input id="age" name="age" value="30ish" type="text"/><br/>
+
+			<label for="city">City</label>
+			<input id="city" name="city" value="Huntington" type="text"/><br/>
+
+			<label for="state">State</label>
+			<input id="state" name="state" value="WY" type="text"/><br/>
+            
+			<label for="zip">Zip</label>
+			<input id="zip" name="zip" value="34211" type="text"/><br/>
+            
+			<label for="company">Company</label>
+			<input id="company" name="company" value="MyConlik Consulting" type="text"/><br/>
+			
+			<label for="select">Select</label>
+			<select id="select" name="select">
+				<option>test</option>
+				<option>test2</option>
+			</select><br />
+
+			<label for="select1">Select 1</label>
+			<select id="select1" name="select1">
+				<option>test</option>
+				<option>test2</option>
+			</select><br />
+			
+			<label for="select2">Select 2</label>
+			<select id="select2" name="select2">
+				<option>test</option>
+				<option>test2</option>
+			</select><br />
+			
+			<div class="clear"></div>
+			<hr>
+			<h3>Checkbox Examples:</h3>
+			
+			<label for="check0">Checkbox 0</label>
+			<input id="check0" type="checkbox" name="check0"/><br/>
+			
+			<label for="check1">Checkbox 1</label>
+			<input id="check1" type="checkbox" name="check1"/><br/>
+			
+			<label for="check2">Checkbox 2</label>
+			<input id="check2" type="checkbox" name="check2"/><br/>
+			
+			<label for="check3">Checkbox 3</label>
+			<input id="check3" type="checkbox" name="check3"/><br/>
+			
+			<label for="check4">Checkbox 4</label>
+			<input id="check4" type="checkbox" name="check4"/><br/>
+			
+			<label for="check5">Checkbox 5</label>
+			<input id="check5" type="checkbox" name="check5"/><br/>
+			
+			<label for="check6">Checkbox 6</label>
+			<input id="check6" type="checkbox" name="check6"/><br/>
+			
+			<label for="check7">Checkbox 7</label>
+			<input id="check7" type="checkbox" name="check7"/><br/>
+			
+			<label for="check8">Checkbox 8</label>
+			<input id="check8" type="checkbox" name="check8"/><br/>
+			
+			<label for="check9">Checkbox 9</label>
+			<input id="check9" type="checkbox" name="check9"/><br/>
+			
+			<label for="check10">Checkbox 10</label>
+			<input id="check10" type="checkbox" name="check10"/><br/>
+			
+			<label for="check11">Checkbox 11</label>
+			<input id="check11" type="checkbox" name="check11"/><br/>
+			
+			<label for="check12">Checkbox 12</label>
+			<input id="check12" type="checkbox" name="check12"/><br/>
+			
+			<label for="check13">Checkbox 13</label>
+			<input id="check13" type="checkbox" name="check13"/><br/>
+			
+			<label for="check14">Checkbox 14</label>
+			<input id="check14" type="checkbox" name="check14"/><br/>
+			
+			<div class='clear'></div>
+		</div>
+		<script>
+ 			var reForm = new ReForm('fieldForm');
+        	reForm.doReForm();
+		</script>
+		<h4>reForm JavaScript for Form Layout, version 0.2, (c) 2008 Joe Lippeatt (joey@lippeatt.com). reForm is freely distributable and open.  Please contribute improvements back to the project.  </h4>
+    </body>
+ </html>
